@@ -1,0 +1,68 @@
+/* Styling the header */
+.header {
+    background-color: #ff33ae;
+    height: 200px;
+  }
+  
+  /* Base styling for input forms and containers */
+  .input-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px 0; /* Added margin for separation */
+  }
+  
+  .box,
+  .edit {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1); /* Consistent shadow */
+    padding: 20px; /* Consistent padding for both */
+    width: 50%; /* Set width for consistency */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Body background color */
+  body {
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensure consistent box sizing */
+  }
+  
+  /* Styling the input fields */
+  .form-control {
+    width: 100%; /* Ensure the input field takes up the full width */
+    padding: 10px; /* Ensure consistent padding */
+    margin-right: 10px; /* Provide space between input and buttons */
+  }
+  
+  /* Font styling */
+  .font {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  /* Positioning the table and aligning text */
+  .tableName {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px; /* Increased margin-top for spacing */
+  }
+  
+  .container {
+    
+    width: 610%; /* Set a fixed width for the table container */
+  }
+  
+  .table {
+    width: 100%; /* Ensure the table takes full width of its container */
+    text-align: center; /* Center text */
+  }
+  input{
+    width: 500px;
+  }
